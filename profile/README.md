@@ -1,2 +1,2 @@
 ## SafaOS
-this organization contains the [NaviOS](https://github.com/SafaOS/SafaOS) project and it's related projects.
+this organization contains the [SafaOS](https://github.com/SafaOS/SafaOS) project and it's related projects.
