@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/github/license/SafaOS/SafaOS?color=red)](https://github.com/SafaOS/SafaOS/blob/main/LICENSE) ![Org's Stars](https://img.shields.io/github/stars/SafaOS?style=flat-square)
 </div>
 
-![Screenshot](https://safiworks.github.io/imgs/screenshots/SafaOS-270325.png)
+![Screenshot](https://safiworks.github.io/imgs/screenshots/SafaOS070525.png)
 
 
 An open-source non-Unix-like OS, written from scratch in Rust for fun.
