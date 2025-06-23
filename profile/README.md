@@ -49,8 +49,8 @@ it isn't unix-like and therefore allows for a more rust-like design, for example
 - USB HID Keyboard
 - PS/2 Keyboard (x86_64 only)
 - labeled VFS which includes these filesystems
-  - `proc:/`: similar to unix's `/proc`, contains read-only data of mostly json that the kernel provides for example: `cpuinfo`, `meminfo`, `kernelinfo`, `eve-journal`, and process related information `[PID]/info`
+  - `proc:/`: similar to unix's `/proc`, contains read-only data of mostly json that the kernel provides for example: `cpuinfo`, `meminfo`, `kernelinfo`, `usbinfo`, `eve-journal`, and process related information `[PID]/info`
   - `dev:/`: similar to unix's `/dev`, contains a read-write interface over some of the system drivers such as the TTY `dev:/tty`, altough i have plans to revmap or remove both `proc` and `dev` 
   - `sys:/`: contains system files, and global binaries in `sys:/bin`
   - `ram:/`: a playground ramdisk
-- more architecture specific drivers, such as the `ACPI` for x86_64, and the `GIC` for aarch64
+- more architecture specific drivers, such as the `ACPI` and the `APIC` for x86_64, and the `GIC` for aarch64
